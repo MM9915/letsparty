@@ -1,0 +1,655 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue;
+    color: rgb(38, 38, 38);
+    height: 667px;
+    background-color: black;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 600%;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1mm;
+    color: whitesmoke;
+}
+
+p {
+    margin: 0;
+    font-size: 130%;
+    color: whitesmoke;
+}
+
+.container {
+position: relative;
+text-align: center;
+color: white;
+}
+.centered {
+position: absolute;
+top: 40%;
+left: 25%;
+transform: translate(-50%, -50%);
+color: black;
+font-weight: 1000;
+font-size: 100%;
+}
+
+.centeredP2 {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-weight: 1000;
+        font-size: 45%;
+        width: 50%;
+}
+
+.Button1 {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    font-weight: 1000;
+    font-size: 250%;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+    width: 25%;
+}
+.Button2 {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    font-weight: 1000;
+    font-size: 250%;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+    width: 25%;
+}
+.Button3 {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 250%;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+    width: 25%;
+}
+.Button4 {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 230%;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+    width: 25%;
+}
+
+.homebutton {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 200%;
+    color: whitesmoke;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+
+.appstore1 {
+    position: absolute;
+    top: 78%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 300%;
+    color: black;
+    border-radius: 10px;
+    opacity: 1;
+    text-decoration: none;
+}
+.appstore2 {
+    position: absolute;
+    top: 78%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 300%;
+    color: black;
+    border-radius: 10px;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.next {
+    position: absolute;
+    top: 10%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 200%;
+    width: 50%;
+    color: whitesmoke;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+
+.Button42 {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 250%;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+
+.Button1:hover {
+    transition: 0.2s;
+    zoom: 1.1;
+    opacity: 1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Button2:hover {
+    transition: 0.2s;
+    zoom: 1.1;
+    opacity: 1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Button3:hover {
+    transition: 0.2s;
+    zoom: 1.1;
+    opacity: 1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Button4:hover {
+    transition: 0.2s;
+    opacity: 1;
+    zoom: 1.1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.Button1:active {
+    opacity: 0.6;
+}
+.Button2:active {
+    opacity: 0.6;
+}
+.Button3:active {
+    opacity: 0.6;
+}
+.Button4:active {
+    opacity: 0.6;
+}
+
+.magnify1 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 100%;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.magnify1:hover {
+    opacity: 1;
+    zoom: 1.05;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.magnify1:focus {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    z-index: 1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    #moretext {
+        display: contents;
+        color: black;
+        display: inline-block;
+        font-size: 100%;
+        text-align: center;
+    }
+}
+
+.magnify12 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s;
+    font-weight: 1000;
+    font-size: 100%;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.magnify12:hover {
+    opacity: 1;
+    zoom: 1.05;
+    transition: 0.2s;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.magnify12:focus {
+    transition: 0;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    z-index: 1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 70%;
+    #moretext {
+        display: contents;
+        color: black;
+        display: inline-block;
+        font-size: 100%;
+        text-align: center;
+    }
+}
+.magnify12:focus:hover {
+    zoom: 0;
+}
+
+.magnify2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 100%;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+.magnify2:hover {
+    opacity: 1;
+    zoom: 1.05;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.magnify2:focus {
+    opacity: 1;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    #moretext {
+        display: contents;
+        color: black;
+        display: inline-block;
+        font-size: 100%;
+        text-align: center;
+    }
+}
+.magnify22 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 100%;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+.magnify22:hover {
+    opacity: 1;
+    zoom: 1.05;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.magnify22:focus {
+    opacity: 1;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    z-index: 1;
+    #moretext {
+        display: contents;
+        color: black;
+        display: flex;
+        font-size: 100%;
+        text-align: justify;
+    }
+}
+.magnify22:focus:hover {
+    zoom: 0;
+}
+
+.magnify3 {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 100%;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.9;
+    text-decoration: none;
+}
+.magnify3:hover {
+    opacity: 1;
+    zoom: 1.05;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.magnify3:focus {
+    opacity: 1;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    #moretext {
+        display: contents;
+        color: black;
+        display: inline-block;
+        font-size: 100%;
+        text-align: center;
+    }
+}
+
+.magnify32 {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 100%;
+    font-weight: 1000;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+.magnify32:hover {
+    opacity: 1;
+    zoom: 1.05;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.magnify32:focus {
+    opacity: 1;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    z-index: 1;
+    #moretext {
+        display: contents;
+        color: black;
+        font-size: 80%;
+        display: flex;
+        text-align: justify;
+    }
+}
+.magnify32:focus:hover {
+    zoom: 0;
+}
+
+
+.magnify4 {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 100%;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+.magnify4:hover {
+    opacity: 1;
+    zoom: 1.05;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.magnify4:focus {
+    opacity: 1;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    #moretext {
+        display: contents;
+        color: black;
+        display: inline-block;
+        font-size: 100%;
+        text-align: center;
+    }
+}
+.magnify42 {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 100%;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+.magnify42:hover {
+    opacity: 1;
+    zoom: 1.05;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.magnify42:focus {
+    opacity: 1;
+    width: 50%;
+    height: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    #moretext {
+        display: contents;
+        color: black;
+    }
+}
+
+.magnify5 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 100%;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+    color: black;
+}
+.magnify5:hover {
+    opacity: 1;
+    zoom: 1.05;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.magnify5:focus {
+    opacity: 1;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    #moretext {
+        display: contents;
+        color: black;
+        display: inline-block;
+        font-size: 100%;
+        text-align: center;
+    }
+}
+.magnify6 {
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 100%;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+.magnify6:hover {
+    opacity: 1;
+    zoom: 1.05;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.magnify6:focus {
+    opacity: 1;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    #moretext {
+        display: contents;
+        color: black;
+        display: inline-block;
+        font-size: 100%;
+        text-align: center;
+    }
+}
+
+.magnify62 {
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: 1000;
+    font-size: 100%;
+    color: rgb(40, 40, 40);
+    background: linear-gradient(to left, #6d6875, #dfcaff);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+.magnify62:hover {
+    opacity: 1;
+    zoom: 1.05;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.magnify62:focus {
+    opacity: 1;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    #moretext {
+        display: contents;
+        color: black;
+        display: flex;
+        font-size: 100%;
+        text-align: justify;
+    }
+}
+
+.magnify62:focus:hover {
+    zoom: 0;
+}
+
+
+
+#moretext {
+    display: none;
+}
