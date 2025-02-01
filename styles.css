@@ -5,7 +5,7 @@ body {
     color: rgb(38, 38, 38);
     background-image: url(Pictures/BG.png);
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-color: black;
 }
 .container {
@@ -184,6 +184,10 @@ max-width: 60%;
     opacity: 0.9;
     text-decoration: none;
 }
+
+
+
+
 .appstore {
     position: absolute;
     top: 78%;
@@ -317,14 +321,17 @@ max-width: 60%;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.game1:focus, .game2:focus, .game3:focus, .game4:focus, .game5:focus, .game6:focus, .game7:focus, .game8:focus, .game9:focus, .game10:focus, .game12:focus, .game13:focus, .game16:focus, .game17:focus, .game18:focus {
+.game1:focus, .game2:focus, .game3:focus, .game4:focus, .game5:focus, .game6:focus, .game7:focus, .game8:focus, .game9:focus, .game10:focus, .game11:focus, .game12:focus, .game13:focus, .game14:focus, .game15:focus, .game16:focus, .game17:focus, .game18:focus {
     opacity: 1;
-    width: 50%;
+    width: 60%;
+    height: 60%;
     position: absolute;
     top: 50%;
     left: 50%;
     z-index: 1;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    overflow: scroll;
+    
     #moretext {
         display: contents;
         color: black;
@@ -336,23 +343,7 @@ max-width: 60%;
 .game10:focus {
     height: 27%;
 }
-.game11:focus, .game14:focus, .game15:focus, .game18:focus {
-    #moretext {
-        display: contents;
-        color: black;  
-        display: flex;
-        font-size: 1vw;
-        text-align: justify;
-    }
-    opacity: 1;
-    width: 60%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
-}
 .game6, .game12, .game18 {
     position: absolute;
     top: 70%;
@@ -386,7 +377,20 @@ max-width: 60%;
         font-size: 3vw;
         padding: 0.3vw;
     }
-    
+    .exit {
+        position: absolute;
+        top: 12%;
+        z-index: 1;
+        left: 87%;
+        transform: translate(-50%, -50%);
+        font-weight: 1000;
+        font-size: 1.9611vw;
+        color: #0000;
+        text-decoration: none;
+    }    
+    .container:focus-within .exit {
+        color: rgb(40, 40, 40);
+    }
     .ee {
         top: 30%;
     }
@@ -408,4 +412,18 @@ max-width: 60%;
     .kk {
         top: 95%;
     }
+    .game1:focus, .game2:focus, .game3:focus, .game4:focus, .game5:focus, .game6:focus, .game7:focus, .game8:focus, .game9:focus, .game10:focus, .game11:focus, .game12:focus, .game13:focus, .game14:focus, .game15:focus, .game16:focus, .game17:focus, .game18:focus {
+        font-size: 5vw;
+        font-weight: normal;
+        height: 80%;
+        width: 80%;
+        overflow: scroll;
+        
+        #moretext {
+            font-size: 4vw;
+            text-align: justify;
+            padding: 5%;
+        }
+    }
+
 }
